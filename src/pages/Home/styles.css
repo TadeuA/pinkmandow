@@ -1,0 +1,90 @@
+#page-create-point {
+  width: 100%;
+  max-width: 1100px;
+
+  margin: 0 auto;
+}
+
+#page-create-point form {
+  margin: 80px auto;
+  padding: 64px;
+  max-width: 730px;
+  background: var(--primary-color);
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+#page-create-point form h1 {
+  font-size: 36px;
+}
+
+#page-create-point form fieldset {
+  margin-top: 64px;
+  min-inline-size: auto;
+  border: 0;
+}
+
+#page-create-point form legend {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+#page-create-point form legend h2 {
+  font-size: 24px;
+}
+
+#page-create-point form legend span {
+  font-size: 14px;
+  font-weight: normal;
+  color: var(--text-color);
+}
+
+#page-create-point form .field-group {
+  flex: 1;
+  display: flex;
+}
+
+#page-create-point form .field-group .field + .field {
+  margin-left: 24px;
+}
+
+#page-create-point form .field-group input + input {
+  margin-left: 24px;
+}
+
+#page-create-point form .field-check {
+  flex-direction: row;
+  align-items: center;
+}
+
+#page-create-point form .field-check input[type="checkbox"] {
+  background: var(--background);
+}
+
+#page-create-point form .field-check label {
+  margin: 0 0 0 8px;
+}
+
+#page-create-point form button {
+  width: 260px;
+  height: 56px;
+  background: var(--primary-color);
+  border-radius: 8px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  border: 0;
+  align-self: flex-end;
+  margin-top: 40px;
+  transition: background-color 0.2s;
+  cursor: pointer;
+}
+
+#page-create-point form button:hover {
+  background: var(--primary-color);
+}
